@@ -12,3 +12,9 @@ artifacts:
   files:
     - '**/*'
   base-directory: dist
+
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  DummyBucket:
+    Type: AWS::S3::Bucket
